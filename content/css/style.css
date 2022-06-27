@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #eeee;
+}
+
+/* LOG IN PAGE */
+
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 500px;
+    border-top: 8px solid #D89216;
+    border-radius: 10px;
+    box-shadow: 0 11px 22px 0 rgb(189 180 180 / 46%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.login-box img {
+    padding: 20px 0;
+}
+
+.login-box hr {
+    width: 100%;
+}
+
+.login-form {
+    width: 80%;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.login-form form { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 130px;
+}
+
+.login-form form label {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-form form input {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #5C5470;
+    border-radius: 3px;
+    border: 1px solid #DBD8E3;
+    padding: .5rem 3rem .5rem 1rem;
+    transition: all .25s ease 0s;
+}
+
+.login-form form input:focus {
+    border-color: #D89216;
+    outline: 0;
+}
+
+
+.login-form form .input-name {
+    left: 1rem;
+    position: relative;
+    display: block;
+    background: #fff;
+    z-index: 2;
+    transition: all .25s ease 0s;
+    top: 0;
+    color: #5C5470;
+}
+
+.login-form form input:focus + .input-name{
+    color: #D89216;
+}
+
+
+.login-box .login-btn {
+    margin-top: 25px;
+}
+
+.login-box .login-btn a {
+    border-radius: 3px;
+    padding: 10px 30px;
+    border: 1.5px solid #D89216;
+    text-decoration: none;
+    color: #D89216;
+    font-weight: 500;
+    margin: 20px 30px;
+    display: block;
+    transition: all .25s ease 0s;
+}
+
+.login-box .login-btn a:hover {
+    color: #fff;
+    background-color: #D89216;
+}
+
+.login-sup {
+    margin-top: 26px;
+}
+
+.login-sup a {
+    color: #5C5470;
+    font-size: 14px;
+    position: absolute;
+    left: 11%;
+    bottom: 34%;
+}
+.login-sup a:hover {
+    color: #D89216;
+}
+
+/* PASSWORD PAGE */
+
+.password-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 300px;
+    border-top: 8px solid #D89216;
+    border-radius: 10px;
+    box-shadow: 0 11px 22px 0 rgb(189 180 180 / 46%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.password-box hr {
+    width: 100%;
+}
+
+.password-box-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.password-box-img img {
+    padding: 10px 0;
+    width: 70%;
+}
+
+.password-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.password-form form {
+    width: 90%;
+}
+
+.password-text {
+    text-align: center;
+    width: 90%;
+    color: #666;
+    font-size: 16px;
+    margin: 22px 0;
+}
+
+.password-form form label {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.password-form form input {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #5C5470;
+    border-radius: 3px;
+    border: 1px solid #DBD8E3;
+    padding: .5rem 3rem .5rem 1rem;
+    transition: all .25s ease 0s;
+}
+
+.password-form form input:focus {
+    border-color: #D89216;
+    outline: 0;
+}
+
+
+.password-form form .input-name {
+    left: 1rem;
+    position: relative;
+    display: block;
+    background: #fff;
+    z-index: 2;
+    transition: all .25s ease 0s;
+    top: 0;
+    color: #5C5470;
+}
+
+.password-form form input:focus + .input-name{
+    color: #D89216;
+}
+
+.login-box .login-btn {
+    margin-top: 25px;
+}
+
+.password-box .password-form-btn a {
+    border-radius: 3px;
+    padding: 10px 30px;
+    border: 1.5px solid #D89216;
+    text-decoration: none;
+    color: #D89216;
+    font-weight: 500;
+    margin: 20px 30px;
+    display: block;
+    transition: all .25s ease 0s;
+}
+
+.password-box .password-form-btn a:hover {
+    color: #fff;
+    background-color: #D89216;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="/content/css/style.css">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;1,100;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="login-box">
+        <div class="box-img">
+            <img src="/content/images/logo.svg" alt="">
+        </div>
+        <hr>
+        <div class="login-form">
+            <form name="form1" action="#">
+                <label for="email">
+                    <input type="text" id="email" name="text" required>
+                    <span class="input-name"> Email </span>
+                </label>
+                <label for="password">
+                    <input type="password" id="password" name="password" required>
+                    <span class="input-name"> Passsword </span>
+                </label>
+
+            </form>
+        </div>
+        <div class="login-sup">
+            <a href="/views/forgot-password.html">I forgot my password</a>
+        </div>
+        <div class="login-btn">
+            <a href="" name="validate" onclick="ValidateEmail(document.form1.text)">LOG IN</a>
+        </div>
+        
+        
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/content/js/main.js"></script>
+</body>
+</html>
